@@ -1,0 +1,52 @@
+@page "/register"
+@layout Layout.AuthLayout
+@rendermode InteractiveServer
+
+<PageTitle>Sign Up</PageTitle>
+
+<div class="signup">
+    <form class="form-signup d-flex justify-content-evenly">
+        <div class="left col-6">
+            <div class="w-100 d-flex flex-column justify-content-center align-items-center text-center mb-5">
+                <img class="mb-4 mx-auto" src="images/logo.png" alt="Nobshop Logo" width="90" height="80">
+                <h1 class="title h1">Nobshop Online</h1>
+            </div>
+
+            <label for="inputName" class="sr-only mb-1">Name</label>
+            <input type="text" id="inputName" class="form-control mb-4" placeholder="John Doe" required autofocus>
+
+            <label for="inputEmail" class="sr-only mb-1">Email</label>
+            <input type="email" id="inputEmail" class="form-control mb-4" placeholder="matilda@nobsteinuni.edu" required>
+
+            <label for="inputPassword" class="sr-only mb-1">Password</label>
+            <input type="password" id="inputPassword" class="form-control mb-4" placeholder="••••••••••••••••" required>
+
+            <label for="inputConfirmPassword" class="sr-only mb-1">Confirm Password</label>
+            <input type="password" id="inputConfirmPassword" class="form-control mb-4" placeholder="••••••••••••••••" required>
+
+            <button class="signup-btn btn btn-lg btn-primary btn-block w-100 mb-5" type="submit">Sign Up</button>
+
+            <p class="d-flex align-items-center justify-content-center">
+                <span class="mr-2 text-black-50">Already have an account?</span>
+                <NavLink class="auth-nav-link p-0 px-1" href="/">
+                    Sign In
+                </NavLink>
+            </p>
+        </div>
+
+        <div class="right bg-black col-6 d-flex justify-content-end align-items-end">
+            <img src="images/online.png" alt="Nobshop Logo">
+
+            <div class="blur-layer"></div>
+
+            <div class="bottom-section">
+                <div class="text-block p-4">
+                    <h1 class="h3">Nobshop Online</h1>
+                    <p class="mb-5">Effortlessly manage listings, track sales, and connect with buyers. Everything you need to grow
+                        your business, all in one place.</p>
+                    <small>Copyright © 2024 | Nobshop Online. All Right Reserved.</small>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

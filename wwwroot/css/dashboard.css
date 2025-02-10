@@ -1,0 +1,73 @@
+.login {
+    padding: 20px;
+}
+
+.nav-link {
+    color: rgba(83, 56, 159);
+}
+
+.left {
+    padding: 150px;
+}
+
+.title {
+    font-weight: 700; 
+}
+.right {
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.right img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blur-layer {
+    background: rgba(48, 34, 98, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+}
+
+.bottom-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%; 
+    background: rgba(48, 34, 98, 0.85); /* Adjust color and opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.text-block {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    padding: 1rem;
+}
+
+.signin-btn {
+    background: rgba(48, 34, 98);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.signin-btn:hover {
+    background: rgba(48, 34, 98, 0.8); 
+}
+
+.signin-btn:active {
+    border: none;
+    background: rgba(48, 34, 98, 0.8); 
+    transform: scale(0.95); 
+}

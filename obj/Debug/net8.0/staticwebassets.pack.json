@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/css/auth.css",
+      "PackagePath": "staticwebassets/css/auth.css"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/css/dashboard.css",
+      "PackagePath": "staticwebassets/css/dashboard.css"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/css/sidebar.css",
+      "PackagePath": "staticwebassets/css/sidebar.css"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/css/topbar.css",
+      "PackagePath": "staticwebassets/css/topbar.css"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/dvc/Downloads/FunctionForce/wwwroot/images/online.png",
+      "PackagePath": "staticwebassets/images/online.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FunctionForce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FunctionForce.props",
+      "PackagePath": "build\\FunctionForce.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FunctionForce.props",
+      "PackagePath": "buildMultiTargeting\\FunctionForce.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FunctionForce.props",
+      "PackagePath": "buildTransitive\\FunctionForce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

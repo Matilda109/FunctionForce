@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunctionForce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f577aaa92d5dff606fdc97d72a1ec8d9c1b32726")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunctionForce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunctionForce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
